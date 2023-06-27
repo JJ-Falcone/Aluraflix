@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+body{
+    background-color: #00030C;
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+main{
+    width: 35%;
+    margin: 8rem 0 0 8rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.chamada{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.combo{
+    width: 22rem;
+    margin-bottom: 3.375rem;
+}
+
+.botoes--chamada{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 0.625rem;
+}
+
+.botao--chamada1{
+    width: 30rem;
+    border-radius: 0.5rem;
+    background: #167BF7;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Inter';
+    line-height: 150%;
+    padding: 1rem;
+}
+
+.botao--chamada2{
+    width: 30rem;
+    border-radius: 0.5rem;
+    border: 1px solid #FFF;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Inter';
+    line-height: 150%;
+    padding: 1rem;
+}
+
+.aviso--chamada{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: 'Inter';
+}
+    
+.beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+
+.div--textos--beneficios1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.chamada--beneficios{
+    color: #FFF;
+    font-size: 3rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.texto--beneficios{
+    color: #F9F9F9;
+    font-size: 16px;
+    font-family: 'Inter';
+    line-height: 150%;
+    opacity: 0.800000011920929;
+}
+
+.div--textos--beneficios2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.botao--beneficios2{
+    width: 8.375rem;
+    border-radius: 0.5rem;
+    background: #167BF7;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Inter';
+    line-height: 150%;
+    padding: 1rem;
+
+}
+
+.section--dispositivos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.dispositivos{
+    display: flex;
+    gap: 4rem;
+}
+
+.dispositivo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dispositivo--nome{
+    margin-top: 1rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 120%;
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer--textos{
+    margin: 2.5rem 0 1.5rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer--texto{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Inter';
+    line-height: 150%;
+}
+
+.termos{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Inter';
+    line-height: 150%;
+    margin-bottom: 5rem;
+    max-width: 75rem;
+}
